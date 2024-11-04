@@ -1,22 +1,36 @@
+# Ignore PHP unit cache files
 /.phpunit.cache
+.phpunit.result.cache
+
+# Node and Yarn dependencies
 /node_modules
+/vendor/
+npm-debug.log
+yarn-error.log
+
+# Laravel specific files and folders
 /public/build
 /public/hot
 /public/storage
-/storage/*.key
-/storage/pail
-/vendor
+/bootstrap/compiled.php
+app/storage/
+
+# Custom environment and backup files
 .env
 .env.backup
 .env.production
-.phpactor.json
-.phpunit.result.cache
+
+# Homestead configuration files
 Homestead.json
 Homestead.yaml
-auth.json
-npm-debug.log
-yarn-error.log
+/.vagrant
+
+# Other IDE and configuration files
 /.fleet
 /.idea
 /.vscode
 /.zed
+
+# Ignore storage keys and files
+/storage/*.key
+/storage/pail
