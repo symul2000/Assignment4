@@ -8,7 +8,8 @@ This is a Laravel-based Product Management System that allows CRUD (Create, Read
 - Views for listing, creating, editing, and viewing products.
 - Sorting functionality by name and price.
 - Search functionality by `product_id` or description (works only when the search button is clicked).
-
+You Can Watch this video about how i using all component etc link below
+https://youtu.be/oecUmZ8hbzg
 ## Features
 
 1. **Product Management**: Create, edit, delete, and view products.
